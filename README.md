@@ -98,7 +98,7 @@ documents within the repository.
     issuing credentials and presenting proofs.
 * Layer 3 Schema Publishers:
   * BC Government
-    * BC Person Schema
+    * [BC Person Schema](Layer3/Schema/BCGov/BCPerson.md)
   * Ontario Government
     * Ontario Person Schema
   * Government of Quebec
@@ -107,7 +107,7 @@ documents within the repository.
     * LSBC Membership Schema
 * Layer 3 Credential Issuers
   * BC Government
-    * BC Person Credentials
+    * [BC Person Credentials](Layer3/Credentials/BCGov/BCPerson.md)
   * Ontario Government
     * Ontario Person Credentials
   * Government of Quebec
@@ -116,7 +116,7 @@ documents within the repository.
     * LSBC Membership Credentials
 * Layer 3 Verifier Presentations
   * BC Ministry of Justice
-    * BC Person Credential + LSBC Membership Credential
+    * [BC Person Credential + LSBC Membership Credential](Layer3/Verifiers/BCGov-MoJ/BCPerson-LSBCMember.md)
 
 The current Layer 3 documents are intended only for human consumption. However,
 this repository will hopefully also serve as a repository for companion machine
