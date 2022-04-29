@@ -1,0 +1,12 @@
+site_name: "DEMO: Pan-Canadian ToIP Governance Framework"
+theme:
+  name: material
+  features:
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.sections
+  - navigation.expand
+markdown_extensions:
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
