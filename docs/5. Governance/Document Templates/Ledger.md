@@ -7,7 +7,7 @@
 
 ## Summary
 
-* Summary of the use of the network in PCEGF
+* Summary of the use of the network in the ecosystem
 
 ## Layer 1 Governance Framework
 

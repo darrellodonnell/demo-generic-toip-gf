@@ -1,17 +1,16 @@
-# BC Government Issuer of BC Person Credential
+# Government of BC
 
 ## Introduction
 
-The BC Person verifiable credential described in this document is issued by the Province of British Columbia’s Ministry of Citizens' Services to Holders that are residents of the Province of British Columbia. The credential contains authoritative digital identity data attributes about the Holder held by the province, including their name and date of birth (see full list of attributes below). The credential is a cornerstone in the use of online digital identity for the residents of British Columbia.
+The Canada Person verifiable credential is issued by the Province of British Columbia’s Ministry of Citizens' Services to Holders that are residents of the Province of British Columbia. The credential contains authoritative digital identity data attributes about the Holder held by the province, including their name and date of birth (see full list of attributes below). The credential is a cornerstone in the use of online digital identity for the residents of British Columbia.
 
-## References
+## Technical Information
 
-This document references the following Trust over IP Governance Documents.
+### Ledger Information
 
-* [Layer 3 BC Person Schema](../../Schema/BCGov/BCPerson.md)
-
-## Machine Readable Governance Information
-
+* Ledger: [CANdy-Dev](https://candyscan.idlab.org/home/CANDY_DEV)
+* Government of BC Issuer DID for the Canada Person verifiable credential: &lt;DID with Link to Ledger Txn>
+* Credential Definition ID: &lt;CRED_DEF ID with Link to Ledger Txn>
 * &lt;Link to Overlays Capture Architecture: Source>
 * &lt;Link to Overlays Capture Architecture: Published>
 
@@ -21,29 +20,37 @@ The Province of British Columbia is legislatively authorized to collect and mana
 
 The Province of British Columbia has delegated the authority to manage digital identity data to the Ministry of Citizens’ Services, and the Ministry is the Issuer of this credential.
 
-## The BC Person Credential
+## The Government of BC Issued Canada Person Credential
 
-The Person credential provides the Holder with the core digital identity attributes held by the Province of British Columbia about the resident, such that the Holder can share those attributes with the verifiers of their choice.
-
-The specific attributes in the credential are defined in the Layer 3 Credential Schema GF document listed in the [References](#references) section of this document.
+The Canada Person credential provides the Holder with core digital identity attributes held by the Province of British Columbia about the resident, such that the Holder can share those attributes with the verifiers of their choice.
 
 ### Issuer-Specific Credential Information
 
-There is no issuer-specific information about the use of the BC Person credential. The credential is used exactly as described in the Layer 3 Credential Schema GF document listed in the [References](#references) section of this document.
+The following sections describes the differences between the [Canada Person Schema documentation](../README.md) and the verifiable credentials issued by BC using this schema.
+
+#### Attributes Not Published
+
+BC issued Canada Person credentials do not publish the following attributes:
+
+* photo_id: is "" in all issuances
+
+#### Attributes Handled Differently
+
+* All name-related items (full_name, given_name, given_names and surname) are in CAPITAL letters.
 
 ### Holders
 
-The BC Person verifiable credential is available to a limited set of residents of the Province of British Columbia who consent to participate in a series of experimental applications of verifiable credential technology. These experiments may result in an expansion of the residents to which the BC Person credential is available.
+The BC "Canada Person" verifiable credential is available to a limited set of residents of the Province of British Columbia who consent to participate in a series of experimental applications of verifiable credential technology. These experiments may result in an expansion of the residents to which the BC "Canada Person" credential is made available.
 
 #### Pre-Issuance Verification
 
-Prior to issuing the BC Person credential, the Issuer does the following verification of the Holder:
+Prior to issuing the BC "Canada Person" credential, the Issuer does the following verification of the Holder:
 
 * The Holder must be a resident of the Province of British Columbia.
 * The Holder must have a BC Services Card.
 * The Holder must have a Mobile BC Services Card.
     * To receive a Mobile BC Services Card, the Holder must have successfully completed one of the following identity proofing processes:
-        * In person verification of their Services Card at a Services BC location
+        * Participate in an in-person verification of their Services Card at a Services BC location
         * Complete a video call verification of their Services Card with Services BC
         * Provide a video verification recording to Services BC
 * The Holder must be using the BC Wallet mobile application (link to be added).
@@ -70,7 +77,7 @@ Note that all of the demographic information in the BC Person credential is Pers
 * The Holder/Resident should take care in deciding with whom they share the information, and for what purpose.
     * The BC Wallet mobile application is planned to have features that help the Holder in making such decisions.
 * Verifiers receiving the information MUST handle the data in a manner consistent with the Privacy Laws of the Province of British Columbia.
-* Verifiers MUST NOT request attributes from the BC Person credential for purposes of which they are not needed. 
+* Verifiers MUST NOT request attributes from the BC Person credential for purposes of which they are not needed.
     * For example, when verifying the age of a person when purchasing alcohol, the Person credential can be used to prove the person is over the age of 19 without sharing any other information from the credential.
 
 Example uses of the BC Person credential are plentiful:
@@ -82,18 +89,8 @@ Example uses of the BC Person credential are plentiful:
 * Verifying the person is a resident of BC for a discount on goods.
 * Verifying a person is of age to, for example, purchase alcohol.
 
-Sample presentation requests are provided in the Layer 3 Schema governance document listed in the [References](#references) section of this document.
-
 ## Contact for Additional Information
 
 For more more information about the use this document please contact the Ministry of Citizens’ Services using this email address: [idiminfo@gov.bc.ca](mailto:idiminfo@gov.bc.ca)
 
-## Technical Information
-
-### Ledger Information
-
-Ledger: [CANdy-Dev](https://candyscan.idlab.org/home/CANDY_DEV)
-
-Person Credential Issuer DID: &lt;DID with Link to Ledger Txn>
-
-Credential Definition ID: &lt;CRED_DEF ID with Link to Ledger Txn>
+## Sample Presentation Requests

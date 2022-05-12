@@ -1,17 +1,18 @@
-# Demo: A Pan-Canadian Trust over IP Governance Framework
+# Demo: A Pan Canadian Verifiable Credential Ecosystem Governance Framework
 
-This repository is a demonstration of expressing a Layer 4 Pan-Canadian
-Ecosystem Trust over IP (ToIP) Governance Framework by providing a structured
-place for publishing governance documents so that audiences can find and
-understand those documents. Authoritative participants in the ecosystem (e.g., Canadian
-governments) can publish the documents over which they are the authority.
-Entities wishing to participant in the ecosystem (e.g., public or private
-organizations), such as being a verifier of government issued verifiable
-credentials, can use the information published here to understand how to receive
-and process the verifiable credentials being issued. Further, the use of a
-GitHub repository enables the curated evolution of the Governance Frameworks
-with questions (issues), suggestions (pull requests) and controlled updates
-(maintainers) and an open, collaborative and tightly governed manner.
+This repository is a demonstration of expressing a decentralized Pan-Canadian
+Ecosystem Verifiable Credential Governance Framework by providing a structured
+place for publishing governance documents about the ecosystem so that audiences
+can find and understand those documents. Member participants in this ecosystem
+(e.g., Canadian governments) can publish the documents over which they are the
+authority that define how to participate in the ecosystem. Entities wishing to
+participate in the ecosystem (e.g., public or private organizations), such as
+being a verifier of government issued verifiable credentials, can use the
+information published here to understand how to receive and process the
+verifiable credentials being issued. Further, the use of a GitHub repository
+enables the curated evolution of the ecosystem governance framework with
+questions (issues), suggestions (pull requests) and controlled updates
+(maintainers) in an open, collaborative and tightly governed manner.
 
 The following are examples of information to be found in this repository.
 
@@ -82,7 +83,7 @@ Credentials and Verifier Presentations) are manually added as documents.
 Eventually, the Table of Contents listed here will be generated based on the
 documents within the repository.
 
-* Layer 4 Ecosystem governance, including rules for contributing to this
+* Ecosystem governance, including rules for contributing to this
   repository via Issues and Pull Requests.
 * Layer 1 utilities are based on Hyperledger Indy.
   * Supported instances for production include:
@@ -96,29 +97,6 @@ documents within the repository.
     )](https://github.com/hyperledger/aries-rfcs/tree/master/concepts/0302-aries-interop-profile#aries-interop-profile-version-10)
     protocols are still used, including those used in establishing connections,
     issuing credentials and presenting proofs.
-* Layer 3 Schema Publishers:
-  * BC Government
-    * [BC Person Schema](Layer3/Schema/BCGov/BCPerson.md)
-  * Ontario Government
-    * Ontario Person Schema
-  * Government of Quebec
-    * QC Person Schema
-  * Law Society of BC (LSBC)
-    * LSBC Membership Schema
-* Layer 3 Credential Issuers
-  * BC Government
-    * [BC Person Credentials](Layer3/Credentials/BCGov/BCPerson.md)
-  * Ontario Government
-    * Ontario Person Credentials
-  * Government of Quebec
-    * QC Person Credentials
-  * Law Society of BC (LSBC)
-    * LSBC Membership Credentials
-* Layer 3 Verifier Presentations
-  * BC Ministry of Justice
-    * [BC Person Credential + LSBC Membership Credential](Layer3/Verifiers/BCGov-MoJ/BCPerson-LSBCMember.md)
-
-The current Layer 3 documents are intended only for human consumption. However,
-this repository will hopefully also serve as a repository for companion machine
-readable governance documents, such as the actual AnonCred Schema objects JSON
-and the source for [Overlays Capture Architecture] documents.
+* Schemas published by contributors that may be useful in the ecosystem
+    * Issuers that issue verifiable credential based on the published schemas
+* Verifiers that request proof of verifiable credentials in the ecosystem

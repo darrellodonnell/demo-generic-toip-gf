@@ -6,7 +6,7 @@
 
 ## Summary
 
-* Summary of the use of the network in PCEGF
+* Summary of the use of the network
 
 ## Layer 1 Governance Framework
 

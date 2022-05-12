@@ -1,20 +1,23 @@
 # Contribution Policy
 
 This document provides the contribution policy for managing the contents of this
-ToIP Layer 4 Pan-Canadian Governance Framework (PCGF) repository.
+ToIP Layer 4 Pan-Canadian Verifiable Credential Ecosystem Governance Framework repository.
 
 ## Contribution Guidelines
 
-Contributions to this governance framework must be made via pull requests to the GF's GitHub 
-repository [https://github.com/cloudcompass/demo-pancdn-toip-gf](https://github.com/cloudcompass/demo-pancdn-toip-gf). The following
-section outlines the process for merging contributions ot this PCGF Repository.
+Contributions to this governance framework must be made via pull requests to the
+GF's GitHub repository
+[https://github.com/cloudcompass/demo-pancdn-toip-gf](https://github.com/cloudcompass/demo-pancdn-toip-gf).
+The following section outlines the process for merging contributions ot this
+Repository.
 
 ### Issues/Pull Requests
 
 Issues and pull requests are used as the primary method for tracking anything to
-do with the PCGF. A pull request is treated exactly the same as an issue with a
-specific proposed change to documents within the PCGF repository. An issue may
-be created that later spawns a related pull request.
+do with the documentation and governance of this ecosystem. A pull request is
+treated exactly the same as an issue with a specific proposed change to
+documents within the ecosystem governance GitHub repository. An issue may be
+created that later spawns a related pull request.
 
 #### Issue/Pull Request Types
 
@@ -34,14 +37,14 @@ Changes at Layers 1, 2 and 4 require a larger discussion amongst all of the
 authorities within the eco-system, as they impact the policies of the ecosystem.
 Example of such issues include:
 
-* Changes to this Contributing document, or the overview of how the PCGF
-  operates or should be used.
-* The addition of new Layer 1 utility ledgers to be used by verifiable
+* Changes to this Contributing document, or the overview of how the ecosystem
+  governance framework operates or should be used.
+* The addition of new ToIP Layer 1 utility ledgers to be used by verifiable
   credential Issuers in the ecosystem, and hence required by Holders and
   Verifiers interested in consuming those verifiable credentials.
 * An update to the set of ToIP Layer 2 protocols used by the ecosystem participants.
 * Updates to the template documents used at the ToIP Layer 3 level, especially
-  if they impact existing Layer 3 governance documents.
+  if they impact existing ToIP Layer 3 governance documents.
 
 Such issues/pull requests allow for feedback from the relevant ecosystem
 authorities before changes are made to the Governance Framework itself or the
