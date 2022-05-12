@@ -2,19 +2,18 @@
 
 ## Introduction
 
-The site is the (_demonstration!!_) Pan-Canadian Ecosystem Governance Framework
-(PCEGF) for Verifiable Credentials, an implementation of a [Layer 4 Trust over
-IP Ecosystem Governance
+The site is the (_demonstration!!_) Pan-Canadian Verifiable Credential Ecosystem
+Governance Framework for Verifiable Credentials, an implementation of a [Layer 4
+Trust over IP Ecosystem Governance
 Framework](https://trustoverip.org/wp-content/toip-model/). This site provides
-information about all 4 Layers of the Trust over IP Governance Stack for all
-issuers, holders and verifiers that participate in the Pan-Canadian verifiable
-credential ecosystem.
+information for and about schema publishers issuers, holders and verifiers that
+participate in the Pan-Canadian verifiable credential ecosystem.
 
 > **CAVEAT:** This site is a proof-of-concept Ecosystem Governance Framework for
   demonstration purposes only. It is not an authorized publication of any
   organization.
 
-The (future) authoritative participants in the PCEGF (e.g., Canadian
+The (future) member participants of this ecosystem (e.g., Canadian
 governments) use this site to publish the governance documents for the
 ecosystem, and manage the contributions of other organizations that publish
 documents about how they participate in the ecosystem. Entities wishing to
@@ -22,7 +21,7 @@ participant in the ecosystem (e.g., public or private organizations), such as
 being a verifier of government issued verifiable credentials, can use the
 information published here to understand how to receive and process the
 verifiable credentials being issued. Further, the use of a GitHub repository
-that is the source for this site enables the curated evolution of the PCEGF
+that is the source for this site enables the curated evolution of the ecosystem
 itself with questions (issues), suggestions (pull requests) managed by
 authorized Editors that enable an open, collaborative and tightly governed
 manner.
@@ -89,7 +88,7 @@ the templates upon which all the documents of a given type are based.
 ## Assumptions About the Audience
 
 Using an MVP approach implies that we will (at least at first) assume that
-the audience for the PCEGF has a background in:
+the audience for the ecosystem has a background in:
 
 * The use of verifiable credentials, and particularly, verifiable credentials
   using Hyperledger Indy ledgers and AnonCreds format verifiable credentials.
@@ -112,5 +111,6 @@ information for those needing more.
 
 Those contributing to the Governance Framework must also understand using
 GitHub, git, markdown, submitting pull requests (PRs), reviewing and approving
-PRs and merging PRs. It's a lot. Please see the [contributing](../Layer%204/CONTRIBUTING.md)
-document for an overview of how to contribute.
+PRs and merging PRs. It's a lot. Please see the
+[contributing](5.%20Governance/CONTRIBUTING.md) document for an overview of how
+to contribute.

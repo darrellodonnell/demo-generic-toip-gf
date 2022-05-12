@@ -1,4 +1,4 @@
-# Layer 3: Schema, Issuers and Verifiers
+# Schemas and Issuers
 
 * Purpose of the section
 * How to use it

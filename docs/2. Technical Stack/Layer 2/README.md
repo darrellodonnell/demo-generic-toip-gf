@@ -1,8 +1,8 @@
-# PCEGF Layer 2
+# Ecosystem Layer 2
 
 ## Layer 2 Peer-to-Peer Protocols
 
-The PCEGF uses [DIDComm v1 and Hyperledger Aries
+The participants of the ecosystem use [DIDComm v1 and Hyperledger Aries
 protocols](https://github.com/hyperledger/aries-rfcs) for messaging between
 ecosystem, and [AnonCreds](https://anoncreds-wg.github.io/anoncreds-spec/)
 verifiable credentials. Specifically:
@@ -15,10 +15,10 @@ verifiable credentials. Specifically:
     * [DIDComm V2 Prep](https://github.com/hyperledger/aries-rfcs/tree/main/concepts/0302-aries-interop-profile#didcommv2prep-didcomm-v2-prep)
     * [Chat](https://github.com/hyperledger/aries-rfcs/tree/main/concepts/0302-aries-interop-profile#chat-chat-related-features)
 
-At this time the sub-targets related to JSON-LD and BBS+ based verifiable credentials are not supported in the PCEGF.
+At this time the sub-targets related to JSON-LD and BBS+ based verifiable credentials are not supported in the ecosystem.
 
 The [Aries Agent Test
 Harness](https://github.com/yperledger/aries-agent-test-harness) and the [Aries
 Mobile Test Harness](https://github.com/hyperledger/aries-mobile-test-harness)
-are used to denonstrate PCEGF Layer 2 interoperability across Aries frameworks
+are used to demonstrate Layer 2 interoperability across Aries frameworks
 and mobile apps.

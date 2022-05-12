@@ -1,4 +1,4 @@
-# Layer 3 Verifier: BC Ministry of Justice
+# BC Ministry of Justice
 
 ## Introduction
 
@@ -11,12 +11,14 @@ Holders requesting access to the MoJ Access to Audio system.
 * Source Credentials: Claims are requested from credentials issued by the
   Government of British Columbia and the Law Society of British Columbia (LSBC).
 
-## References
+## Schemas and Issuers
 
-This document references the following Trust over IP Governance Documents.
+This document references the following Schema and Issuer Documents.
 
-* [Layer 3 BC Government Issuer of BC Person Credential](../../Credentials/BCGov/BCPerson.md)
-* [Layer 3 LSBC Issuer of LSBC Member Credential](../../../Credentials/LSBC/LSBCMember.md)
+* Schema: [CanadaPerson](../../3.%20Schemas/CanadaPerson/README.md)
+    * Issuer: [Province of British Columbia](../../3.%20Schemas/CanadaPerson/Issuers/BCGov.md)
+* Schema: [LSBCMember](../../3.%20Schemas/LSBCMember/README.md)
+    * Issuer [LSBC](../../3.%20Schemas/LSBCMember/Issuers/LSBC.md)
 
 ## Holders Presenting Claims
 
@@ -116,5 +118,5 @@ A link to the presentation request can be found here.
 
 ### Ledger Information
 
-* Ledger: [Sovrin MainNet](../../../../Layer%201/Sovrin.md)
+* Ledger: [Sovrin MainNet](../../2.%20Technical%20Stack/Layer%201/Sovrin.md)
 * Verifier Public DID: &lt;to be added>

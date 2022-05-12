@@ -28,9 +28,10 @@ of collaborators becomes the Schema Publisher, and each Law Society an issuer of
 that type of verifiable credential. Note that "Governance Framework" for the
 schema will be managed elsewhere from this site by the collaborators, in
 whatever form they wish. All that is needed on this site is a description of the
-schema in a format matching the [Schema Template](../6.%20Templates/Schema.md)
-used on this site, perhaps with a reference in the document back to the "full"
-Governance Framework.
+schema in a format matching the [Schema
+Template](../5.%20Governance/Document%20Templates/Schema.md) used on this site,
+perhaps with a reference in the document back to the "full" Governance
+Framework.
 
 To be a schema publisher, follow these steps:
 
@@ -46,7 +47,7 @@ To be a schema publisher, follow these steps:
   credentials based on the published schema.
 * Publish the schema on the appropriate ToIP Layer 1 utility.
 * Create a pull request in the source GitHub repository for this site to add a
-  Schema document, [based on this template](../6.%20Templates/Schema.md)).
+  Schema document, [based on this template](../5.%20Governance/Document%20Templates/Schema.md)).
 * Work with this site's
   [Editors](../5.%20Governance/Governance.md#current-editors) to have
   your pull request approved and merged so that it appears on the site.
@@ -73,7 +74,8 @@ issue credentials based on a [published schema](#schema-publishers).
 * Create a pull request in the [source GitHub
   repository](https://github.com/cloudcompass/demo-pancdn-toip-gf) for this site
   to add a Credential Issuer document [based on this
-  template](../6.%20Templates/Issuer.md) in the folder of the Schema your are
+  template](../5.%20Governance/Document%20Templates/Issuer.md) in the folder of
+  the Schema your are
   using.
 *  Work with this site's
   [Editors](../5.%20Governance/Governance.md#current-editors) to have
@@ -104,7 +106,7 @@ To become a known verifier in this ecosystem, follow these steps:
 * If you think it appropriate, create a pull request in the [source GitHub
   repository](https://github.com/cloudcompass/demo-pancdn-toip-gf) for this site
   to add a Verifier document [based on this
-  template](../6.%20Templates/Verifier.md) in the
+  template](../5.%20Governance/Document%20Templates/Verifier.md) in the
   [Verifiers](../4.%20Verifiers/README.md) folder about each of your verifiers.
 *  Work with this site's
   [Editors](../5.%20Governance/Governance.md#current-editors) to have
@@ -126,11 +128,11 @@ this site to let their users know about the verifiers requesting their data.
 If you want to know how this ecosystem operates, or you want to participate in,
 or contribute to, this ecosystem, follow these steps.
 
-* Review the ToIP Layer 4 section of this site to understand how the site is
-  the Governance Framework, and how contributions to the Governance Framework
+* Review the Governance section of this site to understand how the site is
+  is governed, and how contributions to the Governance Framework
   are managed.
-* If you have questions, submit an issue to the source GitHub repository for
-  this site.
+* If you have questions or comments, please submit an issue to the source GitHub
+  repository for this site.
 
 If in using this site you see any issues with documents in the site you are
 encouraged to either create an issue or, if you have the technical experience,

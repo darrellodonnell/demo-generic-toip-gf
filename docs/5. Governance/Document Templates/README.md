@@ -1,6 +1,6 @@
-# PCEGF Templates
+# Document Templates
 
-## How to Use the PCEGF Templates
+## How to Use the Document Templates
 
 * Copy to appropriate location
 * Edit

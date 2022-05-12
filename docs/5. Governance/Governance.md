@@ -1,58 +1,96 @@
 # Governance Policy
 
-This document provides the governance policy for the Pan-Canadian Ecosystem
-Governance Framework (PCEGF) and the documents developed by the PCEGF
+This document provides the governance policy for this Ecosystem
+Governance Framework and the documents developed by the ecosystem
 participants using the [contribution process](CONTRIBUTING.md).  All
 participants and must adhere to the requirements in this document.
 
 ## Organizational Roles
 
-### Ecosystem Authorities
+### Members Organizations
 
-Authorities are organizations that have voting privileges in the ecosystem
-[decision-making](#decision-making) process. The authorities operate ecosystem
-via authority they delegate to individuals within their organization. An initial
-list of Authorities was established when the ecosystem was created and is
-periodically updated by current the Authorities via the decision making process.
+Members are organizations that have voting privileges in the ecosystem
+[decision-making](#decision-making) process. The members operate the ecosystem
+via authorizations they delegate to individuals within their organizations. An initial
+list of members was established when the ecosystem was created and is
+periodically updated by current the members via the decision making process.
 
-#### Current Authorities
+Member organizations are identified by their GitHub Organization account.
 
-* Cloud Compass Computing Inc.
+#### Current Members
+
+* Government of British Columbia
+* Government of PROVINCE2
+* Gouvernement du Québec
+* Institute for Citizen-Centred Service - Institut des services axés sur les citoyens (ISSC / ISAC)
 
 ### Contributing Organizations
 
-Contributing organizations are organizations that submit issues and
-pull request to the GitHub repository that generates this site, but that lack
-any voting participation in the ecosystems [decision-making](#decision-making)
-process.
+Contributing organizations are entities that submit issues and pull request to
+the GitHub repository that generates this site and participate in discussions
+around issues and pull requests, but that lack voting participation in the
+ecosystems [decision-making](#decision-making) process.
+
+Contributor organizations are identified by their GitHub Organization account.
+
+#### Current Contributors
+
+This is a list of contributing organizations that have requested their names
+are included here:
+
+* Law Society of BC
+* Canadian Association of Banks and Financial Institutions
+* Canadian Association of Real Estate Professionals
+
+### Reader Organizations
+
+Reader organizations are entities that use this site as a resource for
+developing their own verifiable credential capabilities. For example, such
+organizations use the information to find useful issuers of verifiable
+credentials to be verified, and the ToIP Layer 1 and Layer 2 information to
+create a verifier that can be integrated into their applications.
+
+Since the ecosystem governance framework is public, reader organizations need
+not be identified.
 
 ## Individual Roles
 
-The ecosystem defines the following roles for individual participants. Additional roles may be
-adopted and documented by the [Authorities](#ecosystem-authorities).
+The ecosystem defines the following roles for individual participants.
+Additional roles may be adopted and documented by the
+[members](#ecosystem-members).
 
 ### Maintainers
 
-“Maintainers” are responsible for administering access to the GitHub PCEGF
-repository in accordance with the decisions made by the PCEGF Authority
-Organizations. Maintainers may also perform the role of Editor.
+“Maintainers” are responsible for administering access to the GitHub repository
+that holds the ecosystem governance framework in accordance with the decisions
+made by the member organizations. Maintainers may also perform the role of
+Editor.
+
+Maintainers are identified by their GitHub account and their membership
+in a member GitHub Organization account.
 
 #### Current Maintainers
 
-* Stephen Curran
+* Stephen Curran - Government of British Columbia
 
 ### Editors
 
 “Editors” are responsible for managing the GitHub issues and pull requests
-around developing, maintaining, and updating the PCEGF through contributions. In
-practical terms, the Editors are given the ability in the GitHub repository to
-close issues and to approve, merge and close pull requests. In carrying out
-their practical tasks, Editors are also responsible for determining consensus
-and coordinating appeals, and ensuring that the rules for the content and format
-of the documents that make up the PCEGF are followed. The participants of the
-PCEGF will designate one or more Editors. The Editors are themselves
-Participants. Editors are also responsible for enforcing the ecosystem code of
-conduct as outlined in the [Code of Conduct](Code_of_Conduct.md) document.
+around developing, maintaining, and updating the ecosystem governance framework
+through contributions. In practical terms, the Editors are given permissions in
+the GitHub repository to close issues and to approve and merge or close pull
+requests. In carrying out their practical tasks, Editors are also responsible
+for determining consensus and coordinating appeals, and ensuring that the rules
+for the content and format of the documents that make up the ecosystem
+governance framework are followed. The members of the ecosystem governance
+framework will designate one or more Editors. The Editors are themselves
+[contributors](#contributors), and may or may not be [voters](#voters).
+
+Editors are also responsible for enforcing the ecosystem code of conduct as
+outlined in the [Code of Conduct](Code_of_Conduct.md) document.
+
+Editors are identified by their GitHub account and their membership
+in a member GitHub Organization account.
 
 #### Current Editors
 
@@ -60,11 +98,16 @@ conduct as outlined in the [Code of Conduct](Code_of_Conduct.md) document.
 
 ### Voters
 
-Voters are individuals that have delegated authority from their [Authority
-Organization](#authority-organizations) to participate as voting members in the
-ecosystem [decision-making](#decision-making) process.  Voters carry out
-their role by contributing to the GitHub repository through issues and pull
-requests and by participating in decision-making meetings about the ecosystems.
+Voters are individuals that have delegated authority from their [member
+organization](#member-organizations) to participate as voting members in the
+ecosystem [decision-making](#decision-making) process.  Voters carry out their
+role by contributing to the GitHub repository through issues and pull requests,
+and by participating in any necessary decision-making processes/meetings about the ecosystems.
+
+Voters are identified by their nomination to the role by their member
+organization. It is assumed that all voters are known by the set of voters.
+Voters GitHub actions are identified by their GitHub account and their
+membership in a member GitHub Organization account.
 
 #### Current Voters
 
@@ -78,131 +121,46 @@ but do not have a vote in the ecosystem [decision-making](#decision-making)
 process. Contributors contribute to the ecosystem via GitHub issues and pull
 requests and in discussions.
 
+Contributors are identified by their GitHub account and their membership
+in a contributor GitHub Organization account.
+
+## Ecosystem Content Ownership
+
+The ecosystem governance framework, as represented by the contents of the source
+GitHub repository, and the website published from the repository is managed by
+the member organizations via delegations to the Maintainers and Editors.
+
+Each piece document on the website is owned by a given organization or group of
+organizations. The owner controls the content of the document, with some
+limitations. Specifically:
+
+* All of the documents except the Schema, Issuer and Verifier documents
+are owned by the Member Organizations.
+    * While contributors are welcome to propose changes (via pull requests) to those documents, the member organizations approve and merge those changes.
+* The Schema, Issuer and Verifier documents are owned by the Schema Publisher, Issuer and Verifier organizations, respectively.
+    * The content in those documents are written and revised by the owner.
+    * The owner must follow the editing guidelines of the ecosystem, such as using the [templates](Document%20Templates/README.md) required to be used.
+    * The role of the Editors in merging documents owned by Schema Publishers, Issuers and Verifiers is to ensure that submitter or approver of the pull request represents the owner organization, and that the document follows the content guidelines as expressed by the [templates](Document%20Templates/README.md).
+
 ## Decision Making
+
+This section outlines the current decision making process in this ecosystem governance framework.
+This process may be changed by pull requests to the ecosystem governance framework repository
+that are approved by the members and merged.
 
 ### Consensus-Based Decision Making
 
-The ecosystem participants make decisions through a consensus process (“Approval” or
-“Approved”).  While the agreement of all Participants is preferred, it is not
-required for consensus. Rather, the Editors will determine consensus based on
-their good faith consideration of a number of factors, including the dominant
-view of the Participants and nature of support and objections.  The Editors will
-document evidence of consensus in accordance with these requirements.
+The ecosystem participants (members and contributors) make decisions through a
+consensus process (“Approval” or “Approved”).  While the agreement of all
+participants is preferred, it is not required for consensus. Rather, the Editors
+will determine consensus based on their good faith consideration of a number of
+factors, including the dominant view of the Voters and nature of support and
+objections.  The Editors will document evidence of consensus in accordance with
+these requirements.
 
 ### Appeal Process
 
-Decisions may be appealed be via a pull request or an issue, and that appeal
-will be considered by the Editors in good faith, who will respond in writing
-within a reasonable time. As necessary, in extreme circumstances the Editors may
-go to the Participant Organizations to resolve an appeal.
-
-## Note
-
-> The remainder of this document is taken verbatim from the Linux Foundation's
-    Community Specification document. It needs to be updated for the PCEGF.
-
-## Ways of Working
-
-Inspired by [ANSI’s Essential Requirements for Due
-Process](https://share.ansi.org/Shared%20Documents/Standards%20Activities/American%20National%20Standards/Procedures,%20Guides,%20and%20Forms/2020_ANSI_Essential_Requirements.pdf),
-Community Specification Working Groups must adhere to consensus-based due
-process requirements.  These requirements apply to activities related to the
-development of consensus for approval, revision, reaffirmation, and withdrawal
-of Community Specifications.  Due process means that any person (organization,
-company, government agency, individual, etc.) with a direct and material
-interest has a right to participate by: a) expressing a position and its basis,
-b) having that position considered, and c) having the right to appeal. Due
-process allows for equity and fair play. The following constitute the minimum
-acceptable due process requirements for the development of consensus.
-
-### Openness
-
-Participation shall be open to all persons who are directly
-and materially affected by the activity in question. There shall be no undue
-financial barriers to participation. Voting membership on the consensus body
-shall not be conditional upon membership in any organization, nor unreasonably
-restricted on the basis of technical qualifications or other such requirements.
-Membership in a Working Group’s parent organization, if any, may be required.
-
-###  Lack of Dominance
-
-The development process shall not be dominated by
-any single interest category, individual or organization. Dominance means a
-position or exercise of dominant authority, leadership, or influence by reason
-of superior leverage, strength, or representation to the exclusion of fair and
-equitable consideration of other viewpoints.
-
-### Balance
-
-The development process should have a balance of interests.
-Participants from diverse interest categories shall be sought with the objective
-of achieving balance.
-
-### Coordination and Harmonization
-
-Good faith efforts shall be made to
-resolve potential conflicts between and among deliverables developed under this
-Working Group and existing industry standards.
-
-### Consideration of Views and Objections
-
-Prompt consideration shall be
-given to the written views and objections of all Participants.
-
-### Written procedures
-
-This governance document and other materials
-documenting the Community Specification development process shall be available
-to any interested person.
-
-## Specification Development Process.  
-
-### Pre-Draft
-
-Any Participant may submit a proposed initial draft
-document as a candidate Draft Specification of that Working Group.  The
-Maintainer will designate each submission as a “Pre-Draft” document.
-
-### Draft
-
-Each Pre-Draft document of a Working Group must first be
-Approved to become a” Draft Specification”.  Once the Working Group approves a
-document as a Draft Specification, the Draft Specification becomes the basis for
-all going forward work on that specification.
-
-### Working Group Approval
-
-Once a Working Group believes it has achieved
-the objectives for its specification as described in the Scope, it will Approve
-that Draft Specification and progress it to “Approved Specification” status. 
-
-### Publication and Submission
-
-Upon the designation of a Draft
-Specification as an Approved Specification, the Maintainer will publish the
-Approved Specification in a manner agreed upon by the Working Group Participants
-(i.e., Working Group Participant only location, publicly available location,
-Working Group maintained website, Working Group member website, etc.).  The
-publication of an Approved Specification in a publicly accessible manner must
-include the terms under which the Approved Specification is being made available
-under.
-
-### Submissions to Standards Bodies
-
-No Draft Specification or Approved
-Specification may be submitted to another standards development organization
-without Working group Approval. Upon reaching Approval, the Maintainer will
-coordinate the submission of the applicable Draft Specification or Approved
-Specification to another standards development organization. Working Group
-Participants that developed that Draft Specification or Approved Specification
-agree to grant the copyright rights necessary to make those submissions.
-
-## Non-Confidential, Restricted Disclosure
-
-Information disclosed in connection with any Working Group activity, including
-but not limited to meetings, Contributions, and submissions, is not
-confidential, regardless of any markings or statements to the contrary.
-Notwithstanding the foregoing, if the Working Group is collaborating via a
-private repository, the Participants will not make any public disclosures of
-that information contained in that private repository without the Approval of
-the Working Group.
+Decisions may be appealed via a pull request or an issue, and that appeal will
+be considered by the Editors in good faith, who will respond in writing within a
+reasonable time. As necessary, in extreme circumstances the Editors may go to
+the Voters and the Member Organizations to resolve an appeal.
