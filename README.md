@@ -14,6 +14,16 @@ enables the curated evolution of the ecosystem governance framework with
 questions (issues), suggestions (pull requests) and controlled updates
 (maintainers) in an open, collaborative and tightly governed manner.
 
+Here is a simple flow chart:
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 The following are examples of information to be found in this repository.
 
 * Guidance about the ToIP Layer 1 Utilities being used by the ecosystem
