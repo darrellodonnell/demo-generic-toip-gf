@@ -1,10 +1,9 @@
-# Demo: A Pan Canadian Verifiable Credential Ecosystem Governance Framework
+# Demo: A Generic Governance Framework
 
-This repository is a demonstration of expressing a decentralized Pan-Canadian
-Ecosystem Verifiable Credential Governance Framework by providing a structured
+This repository is a demonstration of expressing a decentralized Governance Framework by providing a structured
 place for publishing governance documents about the ecosystem so that audiences
 can find and understand those documents. Member participants in this ecosystem
-(e.g., Canadian governments) can publish the documents over which they are the
+(e.g., <sample members>) can publish the documents over which they are the
 authority that define how to participate in the ecosystem. Entities wishing to
 participate in the ecosystem (e.g., public or private organizations), such as
 being a verifier of government issued verifiable credentials, can use the
@@ -97,10 +96,9 @@ documents within the repository.
   repository via Issues and Pull Requests.
 * Layer 1 utilities are based on Hyperledger Indy.
   * Supported instances for production include:
-    * [CANdy ledger](https://candyscan.idlab.org/) for the rooting of
-      credentials issued by Canadian governments and the 
-    * [Sovrin MainNet](https://indyscan.io/home/SOVRIN_MAINNET) ledger for
-      credential issued by non-government entities in the ecosystem.
+    * [Cardano](https://cardano.org/) for the rooting of
+      credentials issued that are anchored to Cardano. 
+    * ...
 * Layer 2 peer to peer protocols are based on [Aries Interop Profile 2.0  (AIP
   2.0)](https://github.com/hyperledger/aries-rfcs/tree/master/concepts/0302-aries-interop-profile#aries-interop-profile-version-20)
   * Some [Aries Interop Profile 1.0 (AIP 1.0
